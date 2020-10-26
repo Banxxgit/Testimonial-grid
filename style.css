@@ -338,3 +338,18 @@ body {
         padding: 0 29px 0 0;
     }
 }
+
+.attribution {
+    grid-row: 4/5;
+    grid-column: 3/5;
+    font-size: 11px;
+    text-align: center;
+    }
+ .attribution a { color: hsl(228, 45%, 44%); }
+
+ @media only screen and (min-device-width : 280px) and (max-device-width : 1024px) {
+   .attribution {
+     grid-row: 7/8;
+     grid-column: 2/3;
+   }
+ }
