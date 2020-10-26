@@ -16,7 +16,7 @@ body {
         grid-template-columns: 1fr auto 1fr;
         grid-template-rows: 1fr auto auto auto auto auto 1fr;
         column-gap: 1em;
-        row-gap: 1em;
+        row-gap: 2em;
         overflow-x: hidden;
         margin: 0;
         padding: 0;
@@ -142,6 +142,7 @@ body {
         width: 270.5px;
         padding: 10px 10px 10px 10px;
         justify-self: center;
+        position: unset;
     }
     .two img {
         margin-left: 10px;
